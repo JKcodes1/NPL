@@ -14,7 +14,7 @@ Earth, the Illuminati trick Hulk into a shuttle and launch him into space to a
 planet where the Hulk can live in peace. Unfortunately, Hulk land on the
 planet Sakaar where he is sold into slavery and trained as a gladiator."""
 
-# This opens movie file in reafd mode and adds all data to dictionary
+# This opens movie file in read mode and adds all data to dictionary
 with open("movies.txt", "r", encoding="UTF-8") as file:
     m_file = file.readlines()
     for line in m_file:
